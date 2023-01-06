@@ -1,0 +1,186 @@
+body {
+    cursor: pointer;
+    font-size: 100px;
+    font-family: "Luckiest Guy", Arial;
+    color: #fff;
+    background-color: #c979ff;
+}
+
+.caixa{
+    background-color: rgba(240, 248, 255, 0);
+
+    width: 500px;
+    height: 500px;
+    
+    justify-items: center;
+    justify-content: center;
+}
+
+.tampa-pre{
+    background-color: #ff72f8;
+    box-shadow: 0 5px 0  #b23cc2;
+
+    width: 129px;
+    height: 20px;
+
+    margin-left: 20px;
+    margin-top: 0px;
+
+    position: absolute;
+
+    animation-duration: 5s;
+    transform-origin: bottom;
+}
+
+
+.cobertura{
+    background-color: white;
+
+    width: 280px;
+    height: 50px;
+
+    margin-left: -13px;
+
+    border-radius: 50px;
+
+}
+
+.cober-1{
+    background-color: white;
+
+    width: 20px;
+    height: 60px;
+
+    margin-left: 20px;
+    margin-top: -10px;
+
+    border-radius: 50px;
+
+    position: relative;
+}
+
+.cober-2{
+    background-color: white;
+
+    width: 20px;
+    height: 30px;
+
+    margin-left: 44px;
+    margin-top: -60px;
+
+    border-radius: 50px;
+
+    position: relative;
+}
+
+
+.cake-base{
+    background-color: rgba(104, 33, 0, 0.849);
+
+    width: 250px;
+    height: 120px;
+    margin-top: 400px;
+    margin-left: 80px;
+
+    border-radius: 15px;
+}
+
+.rec1{
+    background-color: rgb(226, 77, 189);
+
+    height: 5px;
+    width: 250px;
+
+    margin-top: 2px;
+}
+
+.rec2{
+    background-color: rgb(226, 77, 189);
+
+    height: 5px;
+    width: 250px;
+
+    margin-top: 10px;
+}
+
+.prato{
+
+    background-color: rgb(114, 113, 113);
+
+    width: 300px;
+    height: 10px;
+    margin-top: 0px;
+    margin-left: 55px;
+
+    border-radius: 10px;
+}
+
+.vela1{
+    background-color: darkkhaki;
+
+    width: 5px;
+    height: 30px;
+
+    position: absolute;
+
+    margin-left: 190px;
+    margin-top: -30px;
+  
+}
+
+.vela2{
+    background-color:yellow;
+
+    width: 5px;
+    height: 30px;
+
+    position: absolute;
+
+    margin-left: 195px;
+    margin-top: -30px;
+  
+}
+
+.vela3{
+    background-color:rgb(252, 252, 241);
+
+    width: 2px;
+    height: 3px;
+
+    position: absolute;
+
+    margin-left: 194px;
+    margin-top: -33px;
+}
+
+.fire{
+     
+    background-color: rgba(255, 255, 53, 0.671);
+
+    width: 10px;
+    height: 10px;
+
+    margin-left: -4px;
+    margin-top: -9px;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+
+    animation: go-back 1s infinite alternate;
+
+    /*position: absolute;*/
+  }
+
+  
+  @keyframes go-back {
+    from {
+      transform: translateY(3px);
+      width: 7px;
+      margin-left: -3px;
+    }
+    to {
+      transform: translateX(0);
+      width: 10px;
+    }
+  }
